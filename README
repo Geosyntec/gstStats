@@ -1,0 +1,16 @@
+# gstStats
+## Features
+* quiet()
+* summarise_pearson()
+
+## Installation
+
+Install the gstStats package from Github
+* Note that you may have to edit how R/Rstudio is downloading over secure connections and/or update certificates
+
+```r
+install.packages("remotes")
+options(download.file.method = "wininet")
+remotes::install_github("Geosyntec/gstStats")
+library(gstStats)
+```
